@@ -64,5 +64,5 @@ div.content {
 }
 #navBar.highlight li.history-view-button,
 #navBar li.history-view-button {
-  background: transparent !important;
+  background: background: rgb(204, 186, 151) !important; !important;
 }
