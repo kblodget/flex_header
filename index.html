@@ -18,7 +18,7 @@
   <body>
     <div class="main">
       <nav class="navigation">
-        <ul>
+        <ul id="navBar">
           <li class="nav-buttons"><a href="#">Home</a></li>
           <li class="nav-buttons"><a href="#">About Us</a></li>
           <li class="nav-buttons"><a href="#">Team</a></li>
@@ -36,6 +36,16 @@
           </li>
         </ul>
       </nav>
+      <div class="content" id="myDiv">
+        <button type="button" onclick="toggleNewClass();">Add Class</button>
+      </div>
     </div>
+    <script>
+      function toggleNewClass() {
+        // Select div element by its id attribute
+        var element = document.getElementById("navBar");
+        element.classList.toggle("highlight");
+      }
+    </script>
   </body>
 </html>
