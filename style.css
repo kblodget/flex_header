@@ -62,6 +62,7 @@ a:hover {
 
 #navBar.highlight {
   background: rgb(192, 180, 180);
+  min-width: 360px;
 }
 
 #navBar.highlight ul li a:hover {
